@@ -5,7 +5,7 @@ const cors = require("cors")
 
 var mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
-mongoose.connect('mongodb+srv://krishnatamil317:xA8MH3lTQfUHy6sP@cluster0.ocpvep2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', 
+mongoose.connect('mongodb+srv://admin:Test@123@productexpiry.uvnlb8g.mongodb.net/?retryWrites=true&w=majority&appName=productexpiry', 
 { useNewUrlParser: true ,useUnifiedTopology: true,});
 
 const Product = require("./models/Product");
